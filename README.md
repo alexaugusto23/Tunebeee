@@ -9,4 +9,4 @@ Criação da Recriação da interface do NetFlix.
 
 ### Diferenciais do projeto
 
--- Utilização de logo ao invès de fonte para netflix.
+-- Utilização de logo ao invés de fonte para netflix.
