@@ -23,6 +23,10 @@ body
 header .container
 {
     display: flex;
+    flex-direction: row;  /*defult alinhamento em linha.*/
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
 }
 
 header .logo
@@ -38,11 +42,10 @@ header nav a
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+
 }
 
 header nav a:hover
 {
-    text-decoration: none;
     color: #fff;
-    margin-right: 10px;
 }
