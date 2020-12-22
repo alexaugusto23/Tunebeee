@@ -1,0 +1,143 @@
+:root
+{
+    --bee: #fdc10d;
+    --fundobee: #23343c;
+    --verde_menu_um: #55ba4d;
+    --verde_menu_dois: #98de00;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+
+/*elementos base*/
+body
+{
+    background: var(--fundobee);
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+
+
+header .container
+{
+    
+    display: flex;
+    flex-direction: row;  /*defult alinhamento em linha.*/
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+header .logo
+{
+    max-width:160px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+header nav a
+{
+    text-decoration: none;
+    color: var(--bee);
+    margin-right: 10px;
+
+}
+
+header nav .a1
+{
+    text-decoration: none;
+    color: var(--verde_menu_um);
+}
+
+header nav .a2
+{
+    text-decoration: none;
+    color: var(--verde_menu_dois);
+}
+
+
+header nav a:hover
+{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme-principal
+{
+    font-size: 16px;
+    background: url("/static/img/capas/capa01.jpg"); /*linear-gradient(rgba(0,0,0,.20),rgb(255, 255, 255)10%), */
+    min-height: 400px;
+    height: auto;
+    background-size: cover;
+    margin: 20px 00px 20px 00px;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao
+{
+    margin-bottom: 90px;
+    margin-top: 1%;
+}
+
+.filme-principal .titulo
+{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.filme-principal .container
+{
+    margin: 10px;
+    width: 40%;
+}
+
+.botao
+{
+    background-color: rgba(0,0,0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.botao i
+{
+    margin-right: 8px;
+}
+
+.box-filme
+{
+    height: 10%;
+    width: 10%;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.carrosel-filmes
+{
+    margin-top: 5px;
+}
+
