@@ -1,7 +1,10 @@
-# Interface_NetFlix
-Criação da Recriação da interface do NetFlix.
+# Tunebeee
+Criação do Projeto TuneBeee App de musicas com base no curso da digital inovation one, recriação da interface do NetFlix com mentoria de 
+Felipe Aguiar.
 
-## Ferramentas
+Link da aplicação: https://tunebeee.azurewebsites.net
+
+## Ferramentas e Tecnologias
 
 - HTML
 - CSS
@@ -9,11 +12,4 @@ Criação da Recriação da interface do NetFlix.
 
 ### Diferenciais do projeto
 
--- Utilização de logo (com proprieddes de largura e altura) ao invés de texto para o logo do netflix.
--- margin de recuo na caixa container de 20px.
--- intodução do ícone netflix na aba de title.
--- na classe filme principla foi setado max-heigth e height com auto, margin de 20px.
--- troca de imagem de capa house of cards do site themoviedb
--- inclusão de novo títulos.
--- redução de tamanho das imagens e arredondamento dos cantos.
--- ajuste do media backgroung position center
+
