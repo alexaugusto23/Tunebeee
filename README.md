@@ -16,3 +16,4 @@ Criação da Recriação da interface do NetFlix.
 -- troca de imagem de capa house of cards do site themoviedb
 -- inclusão de novo títulos.
 -- redução de tamanho das imagens e arredondamento dos cantos.
+-- ajuste do media backgroung position center
