@@ -12,10 +12,12 @@
     text-decoration:none;
 }
 
+/*elementos base*/
 body
 {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 
 }
 
@@ -48,4 +50,15 @@ header nav a
 header nav a:hover
 {
     color: #fff;
+}
+
+/*filme principal*/
+.filme-principal
+{
+    font-size: 16px;
+    background: url("/img/capas/capa-house.jpg");
+    min-height: 400px;
+    height: auto;
+    background-size: cover;
+
 }
