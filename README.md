@@ -15,4 +15,4 @@ Criação da Recriação da interface do NetFlix.
 -- na classe filme principla foi setado max-heigth e height com auto, margin de 20px.
 -- troca de imagem de capa house of cards do site themoviedb
 -- inclusão de novo títulos.
--- redução de tamanho das imagens.
+-- redução de tamanho das imagens e arredondamento dos cantos.
