@@ -6,13 +6,58 @@
     text-decoration:none;
 }
 
+.container-conteudo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-logo-conteudo
+{
+ margin-top: 60px;
+}
+
+
 .embed
 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 560px;
-    height: 315px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    margin: 10%;
+}
+
+.embed-descricao
+{
+    margin: 20px;
+    border: 2px solid black;
+    width: 50%;
+    height: auto;
+
+}
+
+.voltar button
+{
+    width: 60px;
+    border-radius: 3px;
+    background-color: transparent;
     border: 1px solid white;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 60px;
+}
+
+.voltar button:hover
+{
+    width: 60px;
+    border-radius: 3px;
+    background-color: #e0bf03;
+    border: 1px solid #e0bf03;;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

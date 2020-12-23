@@ -10,6 +10,26 @@ usuarios = [{"login":"teste","senha":"1234" }]
 def index():
     return render_template("index.html")
 
+@app.route("/eletronica", methods=["GET"] )
+def eletronica():
+    return render_template("page-ele.html")
+
+@app.route("/rock", methods=["GET"] )
+def rock():
+    return render_template("page-rock.html")
+
+@app.route("/classic", methods=["GET"] )
+def classic():
+    return render_template("page-cla.html")
+
+@app.route("/pop", methods=["GET"] )
+def pop():
+    return render_template("page-pop.html")
+
+@app.route("/descricao", methods=["GET"] )
+def descricao():
+    return render_template("descricao.html")
+
 @app.route("/")
 @app.route("/login")
 def login():
