@@ -12,8 +12,12 @@ def index():
 
 @app.route("/")
 @app.route("/login")
-def conteudo():
+def login():
     return render_template("login.html")
+
+@app.route("/conteudo")
+def conteudo():
+    return render_template("conteudo.html")
 
 
 @app.route("/formlogin", methods=["PUT","POST"])
