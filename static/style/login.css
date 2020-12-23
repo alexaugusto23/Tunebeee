@@ -41,8 +41,10 @@
 
 .boxlog_dois
 {   
-    width: 180px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
     padding: 20px;
     border: 2px solid white;
     border-radius: 5px;

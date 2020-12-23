@@ -1,55 +1,55 @@
 {% extends 'base.html' %}
 {% block content %} 
 
-<header>
-    <div class="container">
-        <img src="/static/img/logo.png" alt="logo" class="logo">
-        <nav>
-            <a class="a1" href="/eletronica">Eletrônica</a>
-            <a class="a2" href="/rock">Rock</a>
-            <a class="a1" href="/classic">Classic</a>
-            <a class="a2" href="/pop">Pop</a>
-        </nav>
-    </div>
-</header>
-<main>
-    <div class="filme-principal">
+    <header>
         <div class="container">
-            <h3 class="titulo">THE WEEKEND</h3>
-            <p class="descricao">Abel Makkonen Tesfaye, mais conhecido por seu nome artístico the Weeknd, é um cantor, compositor, ator e produtor musical canadense. </p>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    <a href="/conteudo">
-                        OUÇA AGORA
-                    </a>
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    <a href="/descricao">
-                    MAIS INFORMAÇOES
-                    </a>
-                </button>
+            <img src="/static/img/logo.png" alt="logo" class="logo">
+            <nav>
+                <a class="a1" href="/eletronica">Eletrônica</a>
+                <a class="a2" href="/rock">Rock</a>
+                <a class="a1" href="/classic">Classic</a>
+                <a class="a2" href="/pop">Pop</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">THE WEEKEND</h3>
+                <p class="descricao">Abel Makkonen Tesfaye, mais conhecido por seu nome artístico the Weeknd, é um cantor, compositor, ator e produtor musical canadense. </p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        <a href="/conteudo">
+                            OUÇA AGORA
+                        </a>
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        <a href="/descricao">
+                        MAIS INFORMAÇOES
+                        </a>
+                    </button>
+                </div>
             </div>
         </div>
+    </main>
+    <!--Carrosel Titulos-->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini1.jpg" alt="mini1"></a></div>
+            <div class="item"><a href="/eletronica"><img class="box-filme" src="/static/img/cartazes/mini2.jpg" alt="mini2"></a></div>
+            <div class="item"><a href="/eletronica"><img class="box-filme" src="/static/img/cartazes/mini3.jpg" alt="mini3"></a></div>
+            <div class="item"><a href="/classic"><img class="box-filme" src="/static/img/cartazes/mini4.jpg" alt="mini4"></a></div>
+            <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini5.jpg" alt="mini5"></a></div>
+            <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini6.jpg" alt="mini6"></a></div>
+            <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini7.jpg" alt="mini7"></a></div>
+            <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini8.jpg" alt="mini8"></a></div>
+            <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini9.jpg" alt="mini9"></a></div>
+            <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini10.jpg" alt="mini10"></a></div>
+            <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini11.jpg" alt="mini11"></a></div>
+            <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini12.jpg" alt="mini12"></a></div>
+        </div>
     </div>
-</main>
-<!--Carrosel Titulos-->
-<div class="carrosel-filmes">
-    <div class="owl-carousel owl-theme">
-        <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini1.jpg" alt="mini1"></a></div>
-        <div class="item"><a href="/eletronica"><img class="box-filme" src="/static/img/cartazes/mini2.jpg" alt="mini2"></a></div>
-        <div class="item"><a href="/eletronica"><img class="box-filme" src="/static/img/cartazes/mini3.jpg" alt="mini3"></a></div>
-        <div class="item"><a href="/classic"><img class="box-filme" src="/static/img/cartazes/mini4.jpg" alt="mini4"></a></div>
-        <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini5.jpg" alt="mini5"></a></div>
-        <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini6.jpg" alt="mini6"></a></div>
-        <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini7.jpg" alt="mini7"></a></div>
-        <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini8.jpg" alt="mini8"></a></div>
-        <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini9.jpg" alt="mini9"></a></div>
-        <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini10.jpg" alt="mini10"></a></div>
-        <div class="item"><a href="/pop"><img class="box-filme" src="/static/img/cartazes/mini11.jpg" alt="mini11"></a></div>
-        <div class="item"><a href="/rock"><img class="box-filme" src="/static/img/cartazes/mini12.jpg" alt="mini12"></a></div>
-    </div>
-</div>
 
 {% endblock %}

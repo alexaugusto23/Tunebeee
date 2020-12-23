@@ -83,19 +83,7 @@ header nav a:hover
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-.filme-principal .descricao
-{
-    margin-bottom: 90px;
-    margin-top: 1%;
-}
-
-.filme-principal .titulo
-{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    padding: 5%;
 }
 
 .filme-principal .container
@@ -103,6 +91,21 @@ header nav a:hover
     margin: 10px;
     width: 40%;
 }
+
+.filme-principal .titulo
+{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filme-principal .descricao
+{
+    margin-bottom: 90px;
+    margin-top: 2%;
+  
+}
+
 
 .botao
 {

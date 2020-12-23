@@ -21,6 +21,19 @@
         margin-top: 10px;
         width: 240px;
     }
+
+    .box-input input
+    {
+        max-width: 80%;
+    }
+
+    .embed
+{
+    width: auto;
+    height: auto;
+}
+
+
 }
 
 @media screen and (min-width: 1000px)
@@ -28,6 +41,11 @@
     .decricao
     {
         width: 50%;
+    }
+
+    .box-input input
+    {
+        max-width: 100%;
     }
 
 }
