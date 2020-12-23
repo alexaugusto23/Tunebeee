@@ -9,7 +9,6 @@ Link da aplicação: https://tunebeee.azurewebsites.net
 - HTML
 - CSS
 - JavaScript
-
-### Diferenciais do projeto
-
-
+- Albuns Art: https://www.discogs.com/pt_BR/
+- Python
+- Flask

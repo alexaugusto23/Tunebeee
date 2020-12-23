@@ -7,9 +7,9 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/conteudo")
+@app.route("/login")
 def conteudo():
-    return render_template("conteudo.html")
+    return render_template("login.html")
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT",5000))
