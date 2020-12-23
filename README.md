@@ -3,6 +3,8 @@ Criação do Projeto TuneBeee App de musicas com base no curso da digital inovat
 Felipe Aguiar.
 
 Link da aplicação: https://tunebeee.azurewebsites.net
+Login: teste
+Senha: 1234
 
 ## Ferramentas e Tecnologias
 
