@@ -16,6 +16,11 @@
     background-position: center;
 }
 
+.filme-principal .titulo
+{
+    margin-left: 15%;
+}
+
     .botao
     {
         margin-top: 10px;
@@ -24,7 +29,7 @@
 
     .box-input input
     {
-        max-width: 80%;
+        max-width: 60%;
     }
 
     .embed
@@ -50,8 +55,8 @@
 
     .embed
     {
-        width: 100%;
-        height: 100%;
+        width: 560px;
+        height: 316px;
     }
 
 }
